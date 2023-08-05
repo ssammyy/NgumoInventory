@@ -25,19 +25,6 @@ export class DashboardComponent  {
 
 
 
-  // Sample data for the line chart
-  lineChartData: number[] = [30, 45, 25, 55, 40, 60];
-  lineChartLabels: string[] = ['January', 'February', 'March', 'April', 'May', 'June'];
-  lineChartOptions: any = {
-    responsive: true,
-  };
-  lineChartColors: any[] = [
-    {
-      borderColor: 'blue',
-      backgroundColor: 'rgba(0, 0, 255, 0.2)',
-    },
-  ];
-  lineChartLegend = true;
-  lineChartType = 'line';
+
 
 }

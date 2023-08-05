@@ -21,6 +21,7 @@ import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from '@angular/common/http';
 import {NgxSpinnerModule} from 'ngx-spinner';
 import {MatPaginatorModule} from "@angular/material/paginator";
+import { ChartsModule } from 'ng2-charts';
 
 
 
@@ -45,6 +46,7 @@ import {MatPaginatorModule} from "@angular/material/paginator";
     MatSidenavModule,
     RouterLink,
     MatIconModule,
+    ChartsModule,
     CanvasJSAngularChartsModule,
     FormsModule,
     NgxSpinnerModule,
